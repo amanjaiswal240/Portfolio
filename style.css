@@ -483,6 +483,21 @@ footer span a:hover{
 	text-decoration: underline;
 }
 
+@media (max-width: 570px){
+
+	#myphoto{
+		width: 370px;
+		height: 370px;
+	}
+
+	video{
+		width: 400px;
+		height: 400px;
+	}
+	
+}
+}
+
 @media (max-width: 499px){
 
 	.max-width{
@@ -503,16 +518,16 @@ footer span a:hover{
 	}
 
 	#myphoto{
-		width: 300px;
-		height: 300px;
+		width: 310px;
+		height: 310px;
 	}
 
 	video{
-		width: 330px;
-		height: 220px;
+		width: 320px;
+		height: 200px;
 	}
 
 	footer{
-	padding: 10px 10px;	
+	padding: 10px 0px;	
 }
 }
