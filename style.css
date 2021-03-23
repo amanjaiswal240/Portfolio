@@ -483,7 +483,7 @@ footer span a:hover{
 	text-decoration: underline;
 }
 
-@media (max-width: 500px){
+@media (max-width: 501px){
 
 	.max-width{
 		padding: 0 40px;
