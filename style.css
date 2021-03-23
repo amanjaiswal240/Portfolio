@@ -497,7 +497,7 @@ footer span a:hover{
 	
 }
 
-/*@media (max-width: 499px){
+@media (max-width: 499px){
 
 	.max-width{
 		padding: 0 40px;
@@ -528,5 +528,5 @@ footer span a:hover{
 
 	footer{
 	padding: 10px 0px;	
+	}
 }
-}*/
