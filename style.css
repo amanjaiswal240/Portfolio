@@ -465,29 +465,6 @@ section .title::before{
 
 }
 
-@media (max-width: 500px){
-	.home .home-content .text-1 {
-		font-size: 18px;
-	}
-
-	.home .home-content .text-2 {
-		font-size: 50px;
-	}
-
-	.home .home-content .text-3 {
-		font-size: 25px;
-	}
-
-	#myphoto{
-		width: 390px;
-		height: 390px;
-	}
-
-	video{
-		width: 400px;
-		height: 250px;
-	}
-}
 
 footer{
 	background: #111;
@@ -504,4 +481,42 @@ footer span a{
 
 footer span a:hover{
 	text-decoration: underline;
+}
+
+@media (max-width: 500px){
+
+	.max-width{
+		padding: 0 40px;
+		margin: auto;
+	}
+
+	.home .home-content .text-1 {
+		font-size: 18px;
+	}
+
+	.home .home-content .text-2 {
+		font-size: 40px;
+	}
+
+	.home .home-content .text-3 {
+		font-size: 20px;
+	}
+
+	#myphoto{
+		width: 350px;
+		height: 350px;
+	}
+
+	video{
+		width: 360px;
+		height: 240px;
+	}
+
+	footer{
+	background: #111;
+	padding: 10px 10px;
+	color: #fff;
+	margin-top: 20px;
+	
+}
 }
