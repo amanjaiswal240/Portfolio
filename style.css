@@ -260,9 +260,9 @@ section .title::before{
 }
 
 
-#more {display: none;}
+#medical_more, #cloth_more{display: none;}
 
-#myBtn{
+#myBtn, #medical_Btn, #cloth_Btn{
 	margin-top: 8px;
 	height: 47px;
 	width: 160px;
@@ -280,6 +280,7 @@ section .title::before{
 	color: crimson;
 	background: none;
 }
+
 
 
  .contact .contact-content .text{
