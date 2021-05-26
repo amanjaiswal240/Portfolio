@@ -45,3 +45,19 @@ function clothFunction() {
     moreText.style.display = "inline";
   }
 }
+
+function hardwareFunction() {
+  var dots = document.getElementById("hardware_dots");
+  var moreText = document.getElementById("hardware_more");
+  var btnText = document.getElementById("hardware_Btn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}

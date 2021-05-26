@@ -251,18 +251,21 @@ section .title::before{
 }
 
 
-.pro_details{
-	font-size: 18px;
-}
-
+.pro_details,
 .about_details{
 	font-size: 18px;
 }
 
+./*about_details{
+	font-size: 18px;
+}*/
 
-#medical_more, #cloth_more{display: none;}
 
-#myBtn, #medical_Btn, #cloth_Btn{
+#medical_more, #cloth_more, #hardware_more{
+	display: none;
+}
+
+#myBtn, #medical_Btn, #cloth_Btn, #hardware_Btn{
 	margin-top: 8px;
 	height: 47px;
 	width: 160px;
@@ -373,6 +376,54 @@ section .title::before{
 }
 
 
+@media (max-width: 1210px){
+	video{
+		width: 450px;
+		height: auto;
+	}
+
+	#myphoto{
+		width: 440px;
+		height: 440px;
+	}
+}
+
+@media (max-width: 1040px){
+	video{
+		width: 400px;
+		height: auto;
+	}
+
+	#myphoto{
+		width: 415px;
+		height: 415px;
+	}
+}
+
+@media (max-width: 940px){
+	video{
+		width: 370px;
+		height: auto;
+	}
+
+	#myphoto{
+		width: 380px;
+		height: 380px;
+	}
+}
+
+@media (max-width: 880px){
+	video{
+		width: 340px;
+		height: auto;
+	}
+
+	#myphoto{
+		width: 350px;
+		height: 350px;
+	}
+}
+
 @media (max-width: 1150px){
 	.home .max-width{
 		margin-left: 0px;
@@ -442,6 +493,11 @@ section .title::before{
 
 	video{
 		width: 500px;
+	}
+
+	#myphoto{
+		width: 450px;
+		height: 450px;
 	}
 }
 
