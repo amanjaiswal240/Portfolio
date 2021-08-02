@@ -15,11 +15,11 @@
 			<div class="logo"><a href="#
 				">Portfo<span>lio.</span></a></div>
 			<ul class="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#aboutus">About</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#" class="page-redirect">Home</a></li>
+				<li><a href="#aboutus" class="page-redirect">About</a></li>
+				<li><a href="#skills" class="page-redirect">Skills</a></li>
+				<li><a href="#projects" class="page-redirect">Projects</a></li>
+				<li><a href="#contact" class="page-redirect">Contact</a></li>
 			</ul>
 			<div class="menu-btn">
 				<i class="fas fa-bars"></i>
@@ -204,7 +204,7 @@
 							<i class="fas fa-user"></i>
 							<div class="info">
 								<div class="head">Name</div>
-								<div class="sub-title">Aman jayswal</div>
+								<div class="sub-title">Aman Jayswal</div>
 							</div>
 						</div>
 						<div class="row">
@@ -225,20 +225,20 @@
 				</div>
 				<div class="column right">
 					<div class="text">Message me</div>
-					<form action="#">
+					<form method="POST" class="contact-form">
 						<div class="fields">
-							<div class="field name">
-								<input type="text" name="", placeholder="Name" required>
+							<div class="field">
+								<input type="text" name="", class="name" placeholder="Name" required>
 							</div>
-							<div class="field email">
-								<input type="email" name="", placeholder="Email" required>
+							<div class="field">
+								<input type="email" name="", class="email" placeholder="Email" required>
 							</div>
 						</div>
 						<div class="field">
-							<input type="text" name="", placeholder="Subject" required>
+							<input type="text" name="", class="subject" placeholder="Subject" required>
 						</div>
 						<div class="field textarea">
-							<textarea cols="67" rows="8" placeholder="Message" required></textarea>
+							<textarea cols="67" rows="8" class="message" placeholder="Message" required></textarea>
 						</div>
 						<div class="button">
 							<button type="submit">Send Message</button>
@@ -253,6 +253,9 @@
 		<span>Created By<a href="#"> JayswalAman</a> | <span class="fas fa-copyright">2021 All rights reserved</span></span>
 	</footer>
 
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase.js"></script>
 	<script src="script.js"></script>
 </body>
 </html>
